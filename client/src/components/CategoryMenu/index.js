@@ -5,7 +5,7 @@ import { useStoreContext } from "../../utils/GlobalState";
 import { UPDATE_CATEGORIES, UPDATE_CURRENT_CATEGORY } from '../../utils/actions';
 import { idbPromise } from '../../utils/helpers';
 
-function CategoryMenu({}) {
+function CategoryMenu() {
   // const { data: categoryData } = useQuery(QUERY_CATEGORIES);
   // const categories = categoryData?.categories || [];
   const [ state, dispatch ] = useStoreContext();
